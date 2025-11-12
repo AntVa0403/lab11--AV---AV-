@@ -17,7 +17,7 @@ def hypotenuse(a, b):
     """Return the hypotenuse given sides a and b."""
     return math.hypot(a, b)
 
-def subtract(a, b):
+def sub(a, b):
     """Return a - b."""
     return a - b
 
@@ -31,7 +31,7 @@ def div(a, b):
         raise ZeroDivisionError("Cannot divide by zero.")
     return b / a
 
-def logarithm(a, b):
+def log(a, b):
     """Return logarithm of b with base a. Raise ValueError if invalid."""
     if a <= 0 or a == 1 or b <= 0:
         raise ValueError("Invalid input for logarithm.")
