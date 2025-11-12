@@ -10,7 +10,7 @@ class TestCalculator(unittest.TestCase):
     import unittest
 import math
 from calculator import (
-    add, subtract, mul, div, logarithm, exp, hypotenuse, square_root
+    add, sub, mul, div, log, exp, hypotenuse, square_root
 )
 
 class TestCalculator(unittest.TestCase):
