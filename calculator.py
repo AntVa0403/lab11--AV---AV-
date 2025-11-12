@@ -25,13 +25,13 @@ def mul(a, b):
     """Return a * b."""
     return a * b
 
-def divide(a, b):
+def div(a, b):
     """Return a / b. Raise ZeroDivisionError if b == 0."""
     if b == 0:
         raise ZeroDivisionError("Cannot divide by zero.")
     return a / b
 
-def log(a, b):
+def logarithm(a, b):
     """Return logarithm of b with base a. Raise ValueError if invalid."""
     if a <= 0 or a == 1 or b <= 0:
         raise ValueError("Invalid input for logarithm.")
