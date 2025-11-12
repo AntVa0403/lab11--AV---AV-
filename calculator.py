@@ -17,7 +17,7 @@ def hypotenuse(a, b):
     """Return the hypotenuse given sides a and b."""
     return math.hypot(a, b)
 
-def sub(a, b):
+def subtract(a, b):
     """Return a - b."""
     return a - b
 
@@ -25,7 +25,7 @@ def mul(a, b):
     """Return a * b."""
     return a * b
 
-def div(a, b):
+def divide(a, b):
     """Return a / b. Raise ZeroDivisionError if b == 0."""
     if b == 0:
         raise ZeroDivisionError("Cannot divide by zero.")
