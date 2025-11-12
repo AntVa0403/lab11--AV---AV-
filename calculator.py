@@ -1,4 +1,6 @@
-#
+#https://github.com/AntVa0403/lab11--AV---AV-/blob/main/calculator.py
+#partner 1: Anthony Vargas
+#partner 2: Anthony Vargas
 import math
 
 def add(a, b):
