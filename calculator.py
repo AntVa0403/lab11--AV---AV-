@@ -27,9 +27,9 @@ def mul(a, b):
 
 def div(a, b):
     """Return a / b. Raise ZeroDivisionError if b == 0."""
-    if a == 0:
+    if b == 0:
         raise ZeroDivisionError("Cannot divide by zero.")
-    return b / a
+    return a / b
 
 def log(a, b):
     """Return logarithm of b with base a. Raise ValueError if invalid."""
