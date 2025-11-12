@@ -57,8 +57,5 @@ class TestCalculator(unittest.TestCase):
         with self.assertRaises(ValueError):
             square_root(-4)
 
-if __name__ == '__main__':
-    unittest.main()
-
 if __name__ == "__main__":
     unittest.main()
