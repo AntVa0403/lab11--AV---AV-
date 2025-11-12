@@ -21,11 +21,11 @@ def subtract(a, b):
     """Return a - b."""
     return a - b
 
-def multiply(a, b):
+def mul(a, b):
     """Return a * b."""
     return a * b
 
-def divide(a, b):
+def div(a, b):
     """Return a / b. Raise ZeroDivisionError if b == 0."""
     if a == 0:
         raise ZeroDivisionError("Cannot divide by zero.")
@@ -37,7 +37,7 @@ def logarithm(a, b):
         raise ValueError("Invalid input for logarithm.")
     return math.log(b, a)
 
-def exponent(a, b):
+def exp(a, b):
     """Return a raised to the power of b."""
     return a ** b
 
