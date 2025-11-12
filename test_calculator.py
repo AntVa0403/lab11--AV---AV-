@@ -44,11 +44,11 @@ class TestCalculator(unittest.TestCase):
 
     def test_log_invalid_argument(self):
         with self.assertRaises(ValueError):
-            logrithm(1, 10)
+            logarithm(1, 10)
         with self.assertRaises(ValueError):
-            logrithm(-2, 8)
+            logarithm(-2, 8)
         with self.assertRaises(ValueError):
-            logrithm(2, -8)
+            logarithm(2, -8)
 
     def test_hypotenuse(self):
         self.assertAlmostEqual(hypotenuse(3, 4), 5.0)
